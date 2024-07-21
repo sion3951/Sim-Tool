@@ -5,8 +5,8 @@
 Open cmd
 
 
-```wsl -install```
+```wsl --install```
 
 reboot PC
 
-Type WSL to open
+WSL will now be installed as a program.
