@@ -5,7 +5,7 @@
 Open cmd
 
 
-'''wsl -install'''
+```wsl -install```
 
 reboot PC
 
