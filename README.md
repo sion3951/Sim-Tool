@@ -15,6 +15,8 @@ WSL will now be installed as a program.
 
 ```sudo apt update && sudo apt upgrade```
 
-```sudo apt-get install cmake git g++ gcc```
+```sudo apt-get install cmake git g++ gcc build-essential```
 
 ```chmod +x build.sh```
+
+```export CMAKE_CURRENT_SOURCE_DIR=./```
