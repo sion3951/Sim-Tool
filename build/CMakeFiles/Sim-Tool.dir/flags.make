@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I"/home/sion/Programming/Sim-Tool/libs/*.cpp" -I"/home/sion/Programming/Sim-Tool/libs/*.h"
 
 CXX_FLAGS = -g
 

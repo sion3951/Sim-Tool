@@ -15,8 +15,11 @@ WSL will now be installed as a program.
 
 ```sudo apt update && sudo apt upgrade```
 
-```sudo apt-get install cmake git g++ gcc build-essential```
+```sudo apt-get install cmake git g++ gcc build-essential vulkan-sdk```
 
-```chmod +x build.sh```
+```wget -qO- https://packages.lunarg.com/lunarg-signing-key-pub.asc | sudo tee /etc/apt/trusted.gpg.d/lunarg.asc```
+```sudo wget -qO /etc/apt/sources.list.d/lunarg-vulkan-1.3.283-jammy.list https://packages.lunarg.com/vulkan/1.3.283/lunarg-vulkan-1.3.283-jammy.list```
+```sudo apt update```
+```sudo apt install vulkan-sdk```
 
 ```export CMAKE_CURRENT_SOURCE_DIR=./```

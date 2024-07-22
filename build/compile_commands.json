@@ -1,7 +1,7 @@
 [
 {
   "directory": "/home/sion/Programming/Sim-Tool/build",
-  "command": "/usr/bin/c++   -g -o CMakeFiles/Sim-Tool.dir/src/main.cpp.o -c /home/sion/Programming/Sim-Tool/src/main.cpp",
+  "command": "/usr/bin/c++  -I\"/home/sion/Programming/Sim-Tool/libs/*.cpp\" -I\"/home/sion/Programming/Sim-Tool/libs/*.h\" -g -o CMakeFiles/Sim-Tool.dir/src/main.cpp.o -c /home/sion/Programming/Sim-Tool/src/main.cpp",
   "file": "/home/sion/Programming/Sim-Tool/src/main.cpp",
   "output": "CMakeFiles/Sim-Tool.dir/src/main.cpp.o"
 }
